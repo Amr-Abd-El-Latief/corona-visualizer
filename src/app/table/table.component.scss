@@ -1,0 +1,20 @@
+$fullWidth: 100%;
+
+
+
+/**
+* styling of the mat table
+**/ 
+
+.mat-table {
+    min-width: $fullWidth;
+
+}
+
+/**
+* styling of the paginator
+**/
+.mat-paginator {
+min-width: $fullWidth;
+}
+

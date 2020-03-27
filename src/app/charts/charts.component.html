@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-button color="primary" (click)="updateChartNumbers('confirmed')">Confirmed</ion-button>
+      <ion-button color="secondary"(click)="updateChartNumbers('deaths')">deaths</ion-button>
+      <ion-button color="tertiary" (click)="updateChartNumbers('recovered')">recovered</ion-button>
+      <ion-button color="tertiary" (click)="updateChartNumbers('active')">active</ion-button>
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-card>
+      <ion-card-header>
+        Bar Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #barCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Doughnut Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #doughnutCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+</ion-content>

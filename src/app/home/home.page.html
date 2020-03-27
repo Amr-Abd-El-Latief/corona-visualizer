@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-button color="primary" (click)="changePage('about')">about</ion-button>
+      <ion-button color="secondary"(click)="changePage('charts')">charts</ion-button>
+      <ion-button color="tertiary" (click)="changePage('table')">table</ion-button>
+      <ion-button color="tertiary" >world map</ion-button>
+      <ion-button color="tertiary" >today data</ion-button>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<app-table *ngIf="currentPage=='table'"></app-table>
+<app-charts *ngIf="currentPage=='charts'"></app-charts>
+</ion-content>

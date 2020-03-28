@@ -9,8 +9,9 @@ import { MaterialModule } from '../material.module';
 
 //app components
 
-import {TableComponent} from '../table/table.component'
-import {ChartsComponent} from '../charts/charts.component'
+import {TableComponent} from '../table/table.component';
+import {ChartsComponent} from '../charts/charts.component';
+import {WorldMapComponent} from '../world-map/world-map.component';
 
 @NgModule({
   imports: [
@@ -27,6 +28,6 @@ import {ChartsComponent} from '../charts/charts.component'
     MaterialModule,
     ReactiveFormsModule,HttpClientModule
   ],
-  declarations: [HomePage,TableComponent,ChartsComponent]
+  declarations: [HomePage,TableComponent,ChartsComponent,WorldMapComponent]
 })
 export class HomePageModule {}

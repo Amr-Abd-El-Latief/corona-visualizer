@@ -5,19 +5,19 @@ App to visualize corona Data
 
 # How to Setup 
 
-1 - clone or download the Repo 
+  1 - clone or download the Repo 
 
-2 - install ionic : https://ionicframework.com/docs/installation/cli
+  2 - install ionic : https://ionicframework.com/docs/installation/cli
 
-3 - cd to the app folder 
+  3 - cd to the app folder 
 
-4 - from the cli(terminal / cmd) run : npm install --save-dev @angular-devkit/build-angular.  
+  4 - from the cli(terminal / cmd) run : npm install --save-dev @angular-devkit/build-angular.  
 
-4 - from the cli(terminal / cmd) run :  ionic serve
+  5 - from the cli(terminal / cmd) run :  ionic serve
 
-5 - app will run on port : 8100 (open http://localhost:8100)
+  6 - app will run on port : 8100 (open http://localhost:8100)
 
-
+   any questions please leave in the comments section below
 
 # Development (project ) musts: 
 

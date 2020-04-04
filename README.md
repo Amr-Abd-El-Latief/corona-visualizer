@@ -50,7 +50,7 @@ Data Api : https://coronavirus-19-api.herokuapp.com/countries
             
 
 
-## next planes which you can work on  (Road MAp)
+#  (Road MAp) next steps which you can work on :
 
 1 - about page
 

@@ -3,6 +3,8 @@ App to visualize corona Data
 
 #This app is for try to make a visualizer for corona virus your effort as a Developer is welcomed on this page
 
+Data Api : https://coronavirus-19-api.herokuapp.com/countries
+
 # How to Setup 
 
   1 - clone or download the Repo 
@@ -48,7 +50,7 @@ App to visualize corona Data
             
 
 
-next planes which you  can work on 
+## next planes which you can work on  (Road MAp)
 
 1 - about page
 
@@ -58,8 +60,9 @@ next planes which you  can work on
     a module to show the corona data of today 
     
       find an open APi which gets the today data , and make this component to to show this APi data
+      The api is : https://coronavirus-19-api.herokuapp.com/countries
       
-     
+4 - time Series (by day ) Data visualizer
 
 
 
